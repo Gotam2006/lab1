@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addressBook>
+    <contact>
+        <name>Ivan Petrenko</name>
+        <phone>+380671234567</phone>
+        <email>ivan.petrenko@example.com</email>
+        <address>
+            <city>Kyiv</city>
+            <street>Shevchenko St, 10</street>
+        </address>
+    </contact>
+
+    <contact>
+        <name>Olena Koval</name>
+        <phone>+380632345678</phone>
+        <email>olena.koval@example.com</email>
+        <address>
+            <city>Lviv</city>
+            <street>Svobody Ave, 45</street>
+        </address>
+    </contact>
+
+    <contact>
+        <name>Serhii Melnyk</name>
+        <phone>+380503456789</phone>
+        <email>serhii.melnyk@example.com</email>
+        <address>
+            <city>Kharkiv</city>
+            <street>Naukova St, 15</street>
+        </address>
+    </contact>
+
+    <contact>
+        <name>Maryna Sydorenko</name>
+        <phone>+380991234567</phone>
+        <email>maryna.sydorenko@example.com</email>
+        <address>
+            <city>Dnipro</city>
+            <street>Tsentralna St, 22</street>
+        </address>
+    </contact>
+
+    <contact>
+        <name>Andrii Honchar</name>
+        <phone>+380931112233</phone>
+        <email>andrii.honchar@example.com</email>
+        <address>
+            <city>Odesa</city>
+            <street>Deribasivska St, 7</street>
+        </address>
+    </contact>
+</addressBook>
