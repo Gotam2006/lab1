@@ -1,0 +1,27 @@
+addressBook {
+    display: table;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+
+addressBook::before {
+    content: "Name | Phone | Email | City | Street";
+    display: table-row;
+    font-weight: bold;
+    background-color: #cce5ff;
+    padding: 10px;
+    text-align: left;
+    white-space: pre;
+    border: 1px solid #888;
+}
+
+
+
+name, phone, email, city, street {
+    display: table-cell;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
