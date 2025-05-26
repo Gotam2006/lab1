@@ -1,4 +1,4 @@
-addressBook {
+ addressBook {
     display: table;
     border-collapse: collapse;
     width: 90%;
@@ -7,7 +7,7 @@ addressBook {
 }
 
 
-addressBook::before {
+ addressBook::before {
     content: "Name | Phone | Email | City | Street";
     display: table-row;
     font-weight: bold;
