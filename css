@@ -1,27 +1,48 @@
- addressBook {
-    display: table;
-    border-collapse: collapse;
-    width: 90%;
-    margin: 20px auto;
-    font-family: Arial, sans-serif;
+contact {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
 }
 
 
- addressBook::before {
-    content: "Name | Phone | Email | City | Street";
-    display: table-row;
-    font-weight: bold;
-    background-color: #cce5ff;
-    padding: 10px;
-    text-align: left;
-    white-space: pre;
-    border: 1px solid #888;
+name {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #2a5d84;
 }
 
 
+phone {
+  color: #3a7ca5;
+  display: block;
+  margin-top: 5px;
+}
 
-name, phone, email, city, street {
-    display: table-cell;
-    border: 1px solid #ccc;
-    padding: 8px;
+
+email {
+  color: #555;
+  display: block;
+  margin-top: 5px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+address {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+city {
+  font-weight: bold;
+  color: #444;
+}
+
+street {
+  display: block;
+  margin-top: 3px;
 }
